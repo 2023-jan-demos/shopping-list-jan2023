@@ -69,3 +69,30 @@ main {
 .hidden {
     display: none;
 }
+
+
+.bought {
+    text-decoration: line-through;
+}
+
+section div {
+    cursor: pointer;
+}
+
+section div:hover {
+    background-color: magenta;
+    color:white;
+}
+
+
+
+.bought {
+    cursor:default;
+    background-color: none;
+    color:black;
+}
+
+.bought:hover {
+    background-color: transparent;
+    color:black;
+}
